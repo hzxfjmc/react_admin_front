@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {HashRouter, Route, BrowserRouter as Router, Switch,Link} from 'react-router-dom';
 import Home from '../view/home';
 import About from '../view/about';
-import HighComponent from "../view/highComponent"
+import HighComponent from "../view/highComponent";
+import Parent from "../view/parent/index"
 
 import Layout from "../componets/Layout"
 
@@ -22,6 +23,7 @@ class Maprouter extends Component{
                     <Route exact path="/" component={Home} />
                     <Route path="/about" component={About} />
                     <Route path="/HighComponent" component={HighComponent} />
+                    <Route path="/Parent" component={Parent} />
                 </div>
             </Router>
         );
