@@ -1,0 +1,18 @@
+.left{
+    width:200px;
+    border:1px solid red;
+    position: fixed;
+    top:0;
+    height:100%;
+}
+.content{
+    position: relative;
+    margin:20px 20px 20px 220px;
+    border:1px solid red;
+}
+
+.name_ata{
+    float:right;
+    margin:0 40px 0 0;
+    font-size:16px;
+}
