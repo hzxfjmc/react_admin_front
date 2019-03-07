@@ -74,7 +74,7 @@ class Maprouter extends Component{
                 <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>
                     <Router>
                         <div>
-                            <Route exact path="/" component={Home} />
+                            <Route exact path="/:id" component={Home} />
                             <Route path="/about" component={About} />
                             <Route path="/HighComponent" component={HighComponent} />
                             <Route path="/Parent" component={Parent} />
