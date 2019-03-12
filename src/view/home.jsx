@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Divider, Tag,Statistic, Row, Col } from 'antd';
+import { Table,Statistic, Row, Col } from 'antd';
 export default class Home extends React.Component {
     
     render() {
