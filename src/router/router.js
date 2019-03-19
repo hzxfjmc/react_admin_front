@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import {Route, BrowserRouter as Router} from 'react-router-dom';
+import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
 import Home from '../view/home';
 import About from '../view/about';
 import HighComponent from "../view/highComponent";
 import Parent from "../view/parent/index"
-
 // import Layout from "../componets/Layout"
 
 export default class Maprouter extends Component{

@@ -37,7 +37,6 @@ export default class Home extends React.Component {
             <div>
                 <div className="header">
                 <Row gutter={16}>
-                  
                     <Col span={12}>
                     <Countdown title="Million Seconds" value={deadline} format="HH:mm:ss:SSS" />
                     </Col>
